@@ -78,17 +78,17 @@ It is designed as a learning and professional project to showcase kernel program
 
 ## Directory Structure
 linux-sensor-character-driver/
-# │
-# ├── day_11/ # Blocking read + poll driver
-# ├── day_12/ # Added IOCTL interface
-# ├── day_13/ # Async notification (SIGIO)
-# ├── day_16/ # Workqueue-based driver
-# ├── day_17/ # mmap / zero-copy driver
-# ├── day_18/ # Sysfs interface for interval configuration
-# ├── upgrade-1/ # Project upgrade: advanced features, IOCTL + mmap
-# ├── user_app/ # Sample user-space applications
-# │ ├── user_poll.c
-# │ ├── user_async.c
-# │ └── user_mmap.c
-# ├── Makefile
-# └── README.md
+- │
+- ├── day_11/ - Blocking read + poll driver
+- ├── day_12/ - Added IOCTL interface
+- ├── day_13/ - Async notification (SIGIO)
+- ├── day_16/ - Workqueue-based driver
+- ├── day_17/ - mmap / zero-copy driver
+- ├── day_18/ - Sysfs interface for interval configuration
+- ├── upgrade-1/ - Project upgrade: advanced features, IOCTL + mmap
+- ├── user_app/ - Sample user-space applications
+- │ ├── user_poll.c
+- │ ├── user_async.c
+- │ └── user_mmap.c
+- ├── Makefile
+- └── README.md
